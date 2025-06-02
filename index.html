@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark" class="primary">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gestão de Conhecimento para estagiários de TI</title>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/custom.css" />
+  </head>
+  <body class="">
+    <header class="ps-4 pt-3 border-bottom d-flex">
+      <p class="fs-4 fw-bold text-purple">
+        Gestão de Conhecimento para estagiários de TI
+      </p>
+    </header>
+    <main>
+      <section class="container introduction">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h1 class="fw-bold mb-4 text-purple">Bem-vindo!</h1>
+          <p class="fs-5 mb-4 tw-medium text-dark">
+            Um guia completo para estagiários de TI dominarem a gestão de
+            conhecimento e acelerarem a sua carreira.
+          </p>
+          <div class="mb-5 pb-5 d-flex gap-3 buttons">
+            <button id="downloadPdfBtn" class="btn btn-primary button" download>
+              Baixar Livro (PDF)
+            </button>
+            <a
+              href="./assets/Gestao_de_Conhecimento_para_Estagiarios_de_TI_Completo_Final.pdf"
+              target="_blank"
+              class="btn btn-secondary button"
+              >Visualizar Livro</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="container about-author text-center">
+        <h2 class="fs-3 fw-bolder mb-4">Sobre o autor</h2>
+        <div class="row bg-card rounded p-4 text-start">
+          <div class="col-md-2 text-center my-2">
+            <div class="avatar mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="64"
+                height="64"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="text-primary"
+              >
+                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <h3 class="mb-3 fs-5 fw-semibold">Gunnar Vingren</h3>
+
+            <p class="text-start">
+              "Esta obra nasce da convicção de que o conhecimento técnico
+              adquirido nas trincheiras do dia a dia é um patrimônio valioso que
+              deve ser compartilhado. Como profissional casado com Dayane
+              Celina, carrego comigo valores de comprometimento e parceria que
+              também aplico em minha vida profissional."
+            </p>
+            <p class="text-start">
+              "O objetivo central deste livro transcende a mera transmissão de
+              informações técnicas – busco tornar o conhecimento do cotidiano de
+              TI mais acessível e democrático, promovendo uma cultura de gestão
+              do conhecimento que beneficie tanto os novos profissionais quanto
+              as organizações que os acolhem."
+            </p>
+            <p class="text-start">
+              Ao longo das páginas, você encontrará metodologias práticas,
+              ferramentas recomendadas e estudos de caso que demonstram como
+              implementar uma gestão de conhecimento eficaz, mesmo em posições
+              iniciais como a de estagiário.
+            </p>
+            <p class="text-start">
+              O autor agradece especialmente a sua equipe: Erick Calado
+              (Engenheiro da Computação), Jefferson Barros (Analista de Redes),
+              Maycco W. (Analista de Suporte), Mirele Martins, Paulo Edson,
+              Erickson Rafael (Analista de Impressoras), Guilherme Vitor
+              (Desenvolvedor Full-stack) e Ivanildo Guerra (Gerente do setor de
+              Tecnologia e Inovação).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container about-book text-center">
+        <h2 class="fs-3 fw-bolder mb-4">Sobre o livro</h2>
+        <div class="row rounded p-4 text-start">
+          <div class="col-md-2 text-center my-2">
+            <div class="avatar mb-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="64"
+                height="64"
+                fill="currentColor"
+                stroke="none"
+                class="bi bi-book text-primary"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+                />
+              </svg>
+            </div>
+          </div>
+          <div class="col-md-10">
+            <p class="text-start">
+              Este livro foi desenvolvido para auxiliar estagiários de TI a
+              compreenderem a importância da gestão de conhecimento no ambiente
+              corporativo e como ela pode impactar positivamente sua carreira.
+            </p>
+            <p class="text-start">
+              A gestão de conhecimento é um processo estratégico que envolve a
+              criação, compartilhamento, uso e gerenciamento do conhecimento e
+              informações de uma organização. Para profissionais em início de
+              carreira, dominar essas habilidades pode ser um diferencial
+              competitivo significativo.
+            </p>
+            <p class="text-start">
+              Ao longo das páginas, você encontrará metodologias práticas,
+              ferramentas recomendadas e estudos de caso que demonstram como
+              implementar uma gestão de conhecimento eficaz, mesmo em posições
+              iniciais como a de estagiário.
+            </p>
+            <p class="text-start">
+              O conteúdo aborda desde conceitos fundamentais até técnicas
+              avançadas, permitindo que você aplique o aprendizado imediatamente
+              em seu ambiente de trabalho e se destaque como um profissional que
+              não apenas consome, mas também produz e compartilha conhecimento
+              de valor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container about-details text-center">
+        <h2 class="fs-3 fw-bolder mb-4">Detalhes da publicação</h2>
+        <div class="row bg-card rounded p-4 text-start">
+          <div class="col-md-6">
+            <h3 class="fs-4 text-primary mb-3">Informações Técnicas</h3>
+            <p>
+              <span class="fw-semibold">Título: </span>
+              <span class="text-dark">
+                Gestão de Conhecimento para Estagiários de TI</span
+              >
+            </p>
+
+            <p>
+              <span class="fw-semibold">Data de Publicação:</span
+              ><span class="text-dark"> 16 de maio de 2025</span>
+            </p>
+            <p>
+              <span class="fw-semibold">Páginas: </span
+              ><span class="text-dark">68</span>
+            </p>
+            <p>
+              <span class="fw-semibold">Formato: </span
+              ><span class="text-dark">PDF Digital (A4)</span>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <h3 class="fs-4 text-primary mb-3">Conteúdo</h3>
+
+            <p>
+              <span class="fw-semibold">Capítulos: </span>
+              <span class="text-dark"> 12 capítulos</span>
+            </p>
+
+            <ol class="text-dark">
+              <li>Introdução ao Ambiente Técnico</li>
+              <li>Entendendo o Hardware de Computadores</li>
+              <li>Sistemas Operacionais: Introdução ao Windows</li>
+              <li>Redes Básicas e Conectividade</li>
+              <li>Suporte a Impressoras</li>
+              <li>Diagnóstico e Resolução de Problemas Comuns</li>
+              <li>Ferramentas Essenciais do Suporte Técnico</li>
+              <li>Manutenção de Computadores</li>
+              <li>Backups: Faça agora antes que seja tarde</li>
+              <li>Formatação de Computadores</li>
+              <li>Diagnóstico de Problemas Físicos</li>
+              <li>Bibliografia e Referências</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      document
+        .getElementById("downloadPdfBtn")
+        .addEventListener("click", function () {
+          fetch(
+            "./assets/Gestao_de_Conhecimento_para_Estagiarios_de_TI_Completo_Final.pdf"
+          )
+            .then((response) => response.blob())
+            .then((blob) => {
+              const url = window.URL.createObjectURL(blob);
+              const a = document.createElement("a");
+              a.href = url;
+              a.download =
+                "Gestao_de_Conhecimento_para_Estagiarios_de_TI_Completo_Final.pdf";
+              document.body.appendChild(a);
+              a.click();
+              a.remove();
+            })
+            .catch(() => alert("Erro ao baixar o arquivo."));
+        });
+    </script>
+  </body>
+  <footer class="border-top">
+    <p class="text-dark text-center p-4">
+      © 2025 Gestão de Conhecimento para Estagiários de TI <br />
+      Todos os direitos reservados.
+    </p>
+  </footer>
+</html>

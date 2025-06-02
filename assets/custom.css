@@ -1,0 +1,531 @@
+/**
+ * Arquivo de cores do projeto Gestão de Conhecimento para Estagiários de TI
+ * Autor: Gunnar Vingren
+ * 
+ * Este arquivo contém todas as variáveis de cores e classes utilitárias
+ * compatíveis com Bootstrap, otimizadas para darkmode.
+ */
+
+/* ===== VARIÁVEIS DE CORES BOOTSTRAP DARKMODE ===== */
+
+:root {
+  /* Cores principais do Bootstrap em darkmode */
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #8a2be2; /* Roxo principal do projeto - ajustado */
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #222324;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+
+  /* Cores temáticas do Bootstrap - adaptadas para o tema roxo */
+
+  --bs-primary: #9952e0; /* Roxo principal do projeto */
+  --bs-secondary: #2c2c2c; /* Cinza escuro para elementos secundários */
+  --bs-success: #198754; /* Verde padrão do Bootstrap */
+  --bs-info: #0dcaf0; /* Azul claro padrão do Bootstrap */
+  --bs-warning: #ffc107; /* Amarelo padrão do Bootstrap */
+  --bs-danger: #dc3545; /* Vermelho padrão do Bootstrap */
+  --bs-light: #343a40; /* Cinza escuro para elementos "claros" em darkmode */
+  --bs-dark: #a1a186; /* Cinza muito escuro para elementos "escuros" em darkmode */
+
+  /* Cores de fundo e texto para darkmode */
+  --bs-body-bg: #121212; /* Fundo escuro para o corpo da página */
+  --bs-body-bg-rgb: 18, 18, 18; /* Valor RGB do fundo para uso com opacidade */
+  --bs-body-color: #e9ecef; /* Cor de texto clara para o corpo da página */
+  --bs-body-color-rgb: 233, 236, 239; /* Valor RGB do texto para uso com opacidade */
+
+  /* Cores para links */
+  --bs-link-color: #a64dff; /* Roxo mais claro para links */
+  --bs-link-hover-color: #b366ff; /* Roxo ainda mais claro para hover em links */
+
+  /* Cores para bordas e divisores */
+  --bs-border-color: #495057; /* Cor de borda escura para darkmode */
+  --bs-border-color-translucent: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* Borda translúcida */
+
+  /* Cores para componentes específicos */
+  --bs-card-bg: #1e1e1e; /* Fundo de cards um pouco mais claro que o body */
+  --bs-card-border-color: rgba(
+    255,
+    255,
+    255,
+    0.125
+  ); /* Borda sutil para cards */
+  --bs-card-cap-bg: #2d2d2d; /* Fundo para cabeçalhos de cards */
+
+  --bs-modal-bg: #1e1e1e; /* Fundo de modais */
+  --bs-modal-border-color: rgba(255, 255, 255, 0.2); /* Borda para modais */
+
+  --bs-dropdown-bg: #1e1e1e; /* Fundo de dropdowns */
+  --bs-dropdown-border-color: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* Borda para dropdowns */
+  --bs-dropdown-link-color: #e9ecef; /* Cor de texto para links em dropdowns */
+  --bs-dropdown-link-hover-bg: #2d2d2d; /* Fundo para hover em links de dropdown */
+
+  --bs-nav-tabs-border-color: #495057; /* Cor de borda para abas */
+  --bs-nav-tabs-link-active-bg: #1e1e1e; /* Fundo para aba ativa */
+
+  --bs-input-bg: #2d2d2d; /* Fundo para campos de entrada */
+  --bs-input-border-color: #495057; /* Borda para campos de entrada */
+  --bs-input-color: #e9ecef; /* Cor de texto para campos de entrada */
+  --bs-input-placeholder-color: #adb5bd; /* Cor para placeholder em campos */
+
+  /* Cores para botões */
+  --bs-btn-active-bg: #7126b8; /* Fundo para botão primário ativo */
+  --bs-btn-active-border-color: #6a23ad; /* Borda para botão primário ativo */
+
+  /* Cores para alertas e feedback */
+  --bs-success-bg-subtle: rgba(
+    25,
+    135,
+    84,
+    0.15
+  ); /* Fundo sutil para sucesso */
+  --bs-danger-bg-subtle: rgba(220, 53, 69, 0.15); /* Fundo sutil para erro */
+  --bs-warning-bg-subtle: rgba(255, 193, 7, 0.15); /* Fundo sutil para alerta */
+  --bs-info-bg-subtle: rgba(
+    13,
+    202,
+    240,
+    0.15
+  ); /* Fundo sutil para informação */
+}
+
+/* ===== CLASSES UTILITÁRIAS COMPATÍVEIS COM BOOTSTRAP ===== */
+
+/* Classes para texto com cores temáticas */
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+.text-success {
+  color: var(--bs-success) !important;
+}
+
+.text-danger {
+  color: var(--bs-danger) !important;
+}
+
+.text-warning {
+  color: var(--bs-warning) !important;
+}
+
+.text-info {
+  color: var(--bs-info) !important;
+}
+
+.text-light {
+  color: var(--bs-light) !important;
+}
+
+.text-dark {
+  color: var(--bs-dark) !important;
+}
+
+.text-white {
+  color: var(--bs-white) !important;
+}
+
+.text-body {
+  color: var(--bs-body-color) !important;
+}
+
+.text-muted {
+  color: var(--bs-gray-600) !important;
+}
+
+/* Classes para fundo com cores temáticas */
+.bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+
+.bg-success {
+  background-color: var(--bs-success) !important;
+}
+
+.bg-danger {
+  background-color: var(--bs-danger) !important;
+}
+
+.bg-warning {
+  background-color: var(--bs-warning) !important;
+}
+
+.bg-info {
+  background-color: var(--bs-info) !important;
+}
+
+.bg-light {
+  background-color: var(--bs-light) !important;
+}
+
+.bg-dark {
+  background-color: var(--bs-dark) !important;
+}
+
+.bg-body {
+  background-color: var(--bs-body-bg) !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+/* Classes para bordas com cores temáticas */
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+.border-secondary {
+  border-color: var(--bs-secondary) !important;
+}
+
+.border-success {
+  border-color: var(--bs-success) !important;
+}
+
+.border-danger {
+  border-color: var(--bs-danger) !important;
+}
+
+.border-warning {
+  border-color: var(--bs-warning) !important;
+}
+
+.border-info {
+  border-color: var(--bs-info) !important;
+}
+
+.border-light {
+  border-color: var(--bs-light) !important;
+}
+
+.border-dark {
+  border-color: var(--bs-dark) !important;
+}
+
+/* ===== VARIÁVEIS ESPECÍFICAS DO PROJETO ===== */
+
+:root {
+  /* Variáveis específicas do projeto - tons de roxo */
+  --bs-purple-100: #e9d8fd;
+  --bs-purple-200: #d6bcfa;
+  --bs-purple-300: #b794f4;
+  --bs-purple-400: #a663ea;
+  --bs-purple-500: #8a2be2; /* Roxo principal */
+  --bs-purple-600: #7126b8;
+  --bs-purple-700: #6a23ad;
+  --bs-purple-800: #5a189a;
+  --bs-purple-900: #4c1d95;
+
+  /* Variáveis para transparências */
+  --bs-purple-100-rgb: 233, 216, 253;
+  --bs-purple-500-rgb: 138, 43, 226;
+  --bs-purple-900-rgb: 76, 29, 149;
+}
+
+/* ===== CLASSES ESPECÍFICAS DO PROJETO ===== */
+
+/* Classes para texto com tons de roxo */
+.text-purple {
+  color: var(--bs-purple-400) !important;
+}
+
+.text-purple-light {
+  color: var(--bs-purple-300) !important;
+}
+
+.text-purple-dark {
+  color: var(--bs-purple-800) !important;
+}
+
+/* Classes para fundo com tons de roxo */
+.bg-purple {
+  background-color: var(--bs-purple-500) !important;
+}
+
+.bg-purple-light {
+  background-color: var(--bs-purple-300) !important;
+}
+
+.bg-purple-dark {
+  background-color: var(--bs-purple-800) !important;
+}
+
+.bg-purple-subtle {
+  background-color: rgba(var(--bs-purple-500-rgb), 0.15) !important;
+}
+
+/* Classes para bordas com tons de roxo */
+.border-purple {
+  border-color: var(--bs-purple-500) !important;
+}
+
+.border-purple-light {
+  border-color: var(--bs-purple-300) !important;
+}
+
+.border-purple-dark {
+  border-color: var(--bs-purple-800) !important;
+}
+
+/* ===== UTILITÁRIOS DE OPACIDADE ===== */
+
+/* Classes para aplicar transparência */
+.bg-opacity-10 {
+  --bs-bg-opacity: 0.1 !important;
+}
+
+.bg-opacity-25 {
+  --bs-bg-opacity: 0.25 !important;
+}
+
+.bg-opacity-50 {
+  --bs-bg-opacity: 0.5 !important;
+}
+
+.bg-opacity-75 {
+  --bs-bg-opacity: 0.75 !important;
+}
+
+.bg-opacity-100 {
+  --bs-bg-opacity: 1 !important;
+}
+
+.text-opacity-25 {
+  --bs-text-opacity: 0.25 !important;
+}
+
+.text-opacity-50 {
+  --bs-text-opacity: 0.5 !important;
+}
+
+.text-opacity-75 {
+  --bs-text-opacity: 0.75 !important;
+}
+
+.text-opacity-100 {
+  --bs-text-opacity: 1 !important;
+}
+
+/* ===== EXEMPLOS DE USO COM BOOTSTRAP ===== */
+
+/*
+Exemplos de como usar as classes com Bootstrap:
+
+1. Para um botão primário roxo:
+<button class="btn btn-primary">Botão Roxo</button>
+
+2. Para um card em darkmode:
+<div class="card bg-dark border-secondary">
+  <div class="card-header">Título do Card</div>
+  <div class="card-body">
+    <p class="card-text">Conteúdo do card em darkmode</p>
+  </div>
+</div>
+
+3. Para um alerta com tema roxo personalizado:
+<div class="alert bg-purple-subtle border border-purple">
+  <strong>Atenção!</strong> Mensagem importante com tema roxo.
+</div>
+
+4. Para texto com cor roxa:
+<p class="text-purple">Este texto usa a cor roxa principal do projeto</p>
+
+5. Para um badge roxo:
+<span class="badge bg-purple">Novo</span>
+
+6. Para um link com cor personalizada:
+<a href="#" class="text-purple-light">Link com cor roxa clara</a>
+*/
+
+/* ===== COMO INTEGRAR COM BOOTSTRAP ===== */
+
+/*
+Para integrar este arquivo com Bootstrap:
+
+1. Importe o Bootstrap primeiro:
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+2. Em seguida, importe este arquivo para sobrescrever as variáveis:
+   <link href="path/to/colors.css" rel="stylesheet">
+
+3. Adicione a classe 'dark' ao elemento <html> ou <body> para ativar o darkmode:
+   <html class="dark">
+   ou
+   <body class="dark">
+
+4. Use as classes do Bootstrap normalmente, elas já estarão com as cores adaptadas para darkmode.
+*/
+
+/* Forçar darkmode em todo o site */
+html,
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* Ajustes específicos para componentes Bootstrap em darkmode */
+.card {
+  background-color: var(--bs-card-bg);
+  border-color: var(--bs-card-border-color);
+}
+
+.modal-content {
+  background-color: var(--bs-modal-bg);
+  border-color: var(--bs-modal-border-color);
+}
+
+.dropdown-menu {
+  background-color: var(--bs-dropdown-bg);
+  border-color: var(--bs-dropdown-border-color);
+}
+
+.form-control,
+.form-select {
+  background-color: var(--bs-input-bg);
+  border-color: var(--bs-input-border-color);
+  color: var(--bs-input-color);
+}
+
+.form-control::placeholder {
+  color: var(--bs-input-placeholder-color);
+}
+
+.nav-tabs {
+  border-color: var(--bs-nav-tabs-border-color);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  border-color: var(--bs-nav-tabs-border-color);
+  color: var(--bs-body-color);
+}
+
+.table {
+  color: var(--bs-body-color);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.list-group-item {
+  background-color: var(--bs-card-bg);
+  border-color: var(--bs-border-color);
+  color: var(--bs-body-color);
+}
+
+/* Ajustes para botões */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--bs-gray-dark);
+  border-color: var(--bs-gray-dark);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--bs-purple-600);
+  border-color: var(--bs-purple-700);
+}
+
+.btn-primary:active {
+  background-color: var(--bs-btn-active-bg) !important;
+  border-color: var(--bs-btn-active-border-color) !important;
+}
+
+.btn-outline-primary {
+  color: var(--bs-white);
+  border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+.bg-ww {
+  background: #fefcf3;
+}
+.primary {
+  color: --bs-purple;
+}
+.tw-medium {
+  max-width: 70ch;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60526e;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: auto;
+}
+.about-author,
+.about-book,
+.about-details {
+  margin-bottom: 6rem;
+  max-width: 110ch;
+}
+header {
+  margin-bottom: 6rem;
+}
+.button {
+  padding: 0.8rem 1.4rem;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .button {
+    width: 100%;
+  }
+}
+.bg-card {
+  background-color: #202020;
+}
