@@ -43,7 +43,7 @@ The goal of this project is to spread essential knowledge management concepts ta
 
 ## 🖥️ Live Preview 🔗
 
-You can access the online version of the project here: (Click here)[https://gunnaroliveira.github.io/My-book---Knowledge-Management-for-IT-Interns/?fbclid=PAQ0xDSwKrLItleHRuA2FlbQIxMQABpzXm6wFOIHe6aPga9i1l3xdgA0ef9CUz1YfF_nM3tzMT_FnR6T33tQjqEA_-_aem_L5EabUg5cRpyotBQKHFW8g].
+You can access the online version of the project here: [https://gunnaroliveira.github.io/My-book---Knowledge-Management-for-IT-Interns/?fbclid=PAQ0xDSwKrLItleHRuA2FlbQIxMQABpzXm6wFOIHe6aPga9i1l3xdgA0ef9CUz1YfF_nM3tzMT_FnR6T33tQjqEA_-_aem_L5EabUg5cRpyotBQKHFW8g].
 
 ## Installation & Usage 📥
 
